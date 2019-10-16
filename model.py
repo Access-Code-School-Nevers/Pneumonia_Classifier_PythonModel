@@ -1,10 +1,8 @@
-import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Input, BatchNormalization, Reshape
 from tensorflow.keras.layers import Conv2D, SeparableConv2D, GlobalAveragePooling2D
 from tensorflow.compat.v1.keras.optimizers import Adam
 import tensorflowjs as tfjs
-
 
 import cv2
 import numpy as np
