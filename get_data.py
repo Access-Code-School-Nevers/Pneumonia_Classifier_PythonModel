@@ -24,9 +24,10 @@ def get_data(data_folder):
                 x.append(os.path.join(data_folder,folder,img))
                 y.append(to_categorical(2,3))
 
-            idx+=1
+            
             if idx % 200 == 0:
                 print('{} image path loaded'.format(idx))
+            idx+=1
     print('{} image path loaded'.format(idx))
             
     return x, y
