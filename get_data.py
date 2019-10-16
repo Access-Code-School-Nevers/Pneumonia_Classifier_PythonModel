@@ -27,16 +27,6 @@ def get_data(data_folder):
             idx+=1
             if idx % 200 == 0:
                 print('{} image path loaded'.format(idx))
-            print('{} image path loaded'.format(idx))
+    print('{} image path loaded'.format(idx))
             
     return x, y
-
-def path_to_img(path):
-    return cv2.imread(path)
-
-
-
-
-
-
-
